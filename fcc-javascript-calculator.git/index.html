@@ -4,6 +4,7 @@
 
     <head>
         <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script type="text/javascript" src="script.js"></script>
 
     </head>
@@ -11,7 +12,7 @@
     <div class="container text-center" id="calc">
         <div class="calcBG text-center">
             <div class="row">
-                <small>Bootstrap Calculator</small>
+                <small>Mr Zack's Js Calculator</small>
             </div>
             <div class="row" id="result">
                 <form name="calc">
@@ -52,7 +53,8 @@
                 <button id="0" type="button" class="btn btn-info" onclick="myFunction(this.id)">0</button>
                 <button id="." type="button" class="btn btn-info" onclick="myFunction(this.id)">.</button>
                 <button id="equals" type="button" class="btn btn-success" onclick="calculate()">=</button>
-                <button id="equals" type="button" class="btn btn-success" onclick="calculate()">On/0ff</button>
+                <button id="on" type="button" class="btn btn-success">On</button>
+                <button id="off" type="button" class="btn btn-success">Off</button>
                 <button id="blank" type="button" class="btn btn-info">&nbsp;</button>
             </div>
 
